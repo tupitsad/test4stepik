@@ -7,7 +7,7 @@ from selenium.webdriver.firefox.options import Options as OptionsFirefox
 import time
 
 
-def test_language(browser):
+def test_items(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     time.sleep(10)
